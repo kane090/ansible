@@ -13,7 +13,6 @@
       update_cache: yes
     when: ansible_distribution == "Ubuntu"
 
-
   - name: update + remove apache and php packages (CentOS)
     yum:
       name:
