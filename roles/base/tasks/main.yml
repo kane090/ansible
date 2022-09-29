@@ -1,0 +1,4 @@
+- name: add ssh key for shrek
+  authorized_key:
+    user: shrek
+    key: "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIDt+ymjePpb3cVP6OJRZ8SnMumsrqkiSE7wy3jOH1AHl Ansible"
